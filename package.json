@@ -1,0 +1,46 @@
+{
+  "name": "vite-svelte-ts-starter-test2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "svelte build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@dimforge/rapier3d-compat": "*",
+    "@skeletonlabs/skeleton": "^2.10.2",
+    "@skeletonlabs/tw-plugin": "^0.4.0",
+    "@sveltejs/vite-plugin-svelte": "*",
+    "@tailwindcss/typography": "^0.5.14",
+    "@theatre/core": "*",
+    "@theatre/studio": "*",
+    "@threlte/core": "latest",
+    "@threlte/extras": "latest",
+    "@threlte/rapier": "latest",
+    "@threlte/theatre": "latest",
+    "@threlte/xr": "latest",
+    "@tsconfig/svelte": "*",
+    "@tweakpane/core": "^1.1.0",
+    "@types/node": "^22.1.0",
+    "@types/three": "*",
+    "autoprefixer": "^10.4.20",
+    "daisyui": "^4.12.10",
+    "postprocessing": "*",
+    "skeleton": "^0.1.2",
+    "svelte": "*",
+    "svelte-check": "*",
+    "svelte-tweakpane-ui": "*",
+    "tailwindcss": "^3.4.9",
+    "three": "*",
+    "tslib": "*",
+    "tweakpane": "^3.1.0",
+    "typescript": "*",
+    "vite": "*"
+  },
+  "dependencies": {
+    "all": "^0.0.0"
+  }
+}

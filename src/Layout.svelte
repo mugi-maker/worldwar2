@@ -2,7 +2,7 @@
   import App from './example/App.svelte';
   import Apps from './examples/Apps.svelte';
   import Gays from './gay/gays.svelte';
-  import LazyLoad from './LazyLoad.svelte';
+  // import LazyLoad from './LazyLoad.svelte';
 
   import { onMount } from 'svelte';
   let showDiv = false;
@@ -64,11 +64,11 @@
 {#if showDiv}
   <div class="main">
     <div class="screen">
-      <LazyLoad>
+  
         <div class ="artboard "><App /></div><br>
         <Apps /><br>
         <Gays />
-      </LazyLoad>
+  
     </div>
   </div>
 

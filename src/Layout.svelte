@@ -2,7 +2,7 @@
   import App from './example/App.svelte';
   import Apps from './examples/Apps.svelte';
   import Gays from './gay/gays.svelte';
-  let imagePath = '/textures/grass.png';
+s
   // import LazyLoad from './LazyLoad.svelte';
 
   import { onMount } from 'svelte';
@@ -32,7 +32,7 @@
 
 </script>
 <h1>hello</h1>
-<img src={imagePath} alt="Local image" />
+<!-- <img src={imagePath} alt="Local image" /> -->
 
 <!-- div -->
 <div role="alert" class="alert alert-info">
@@ -81,10 +81,10 @@
     margin: 0;
   }
 
-  .button-bar {
+/* .button-bar {
     align-items: center;
     display: flex;
-  }
+  } */
 
   .screen {
     margin-left: 10%;
@@ -95,9 +95,9 @@
     width: 80%;
   }
 
-  .btn {
+  /* .btn {
     margin-left: 10px;
-  }
+  } */
 
   .main {
     align-items: center;
@@ -122,11 +122,11 @@
     z-index: 1000;
   }
 
-  .carousel{
+  /* .carousel{
     display: flex;
     height: 70%;
   }
   .carousel-item{
     height: 100%;
-  }
+  } */
 </style>

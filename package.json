@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "svelte build",
+    "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
@@ -13,7 +13,7 @@
     "@dimforge/rapier3d-compat": "*",
     "@skeletonlabs/skeleton": "^2.10.2",
     "@skeletonlabs/tw-plugin": "^0.4.0",
-    "@sveltejs/vite-plugin-svelte": "*",
+    "@sveltejs/vite-plugin-svelte": "^3.1.1",
     "@tailwindcss/typography": "^0.5.14",
     "@theatre/core": "*",
     "@theatre/studio": "*",
@@ -30,7 +30,7 @@
     "daisyui": "^4.12.10",
     "postprocessing": "*",
     "skeleton": "^0.1.2",
-    "svelte": "*",
+    "svelte": "^4.2.19",
     "svelte-check": "*",
     "svelte-tweakpane-ui": "*",
     "tailwindcss": "^3.4.9",
@@ -38,7 +38,7 @@
     "tslib": "*",
     "tweakpane": "^3.1.0",
     "typescript": "*",
-    "vite": "*"
+    "vite": "^5.4.8"
   },
   "dependencies": {
     "all": "^0.0.0"

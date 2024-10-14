@@ -2,6 +2,7 @@
   import App from './example/App.svelte';
   import Apps from './examples/Apps.svelte';
   import Gays from './gay/gays.svelte';
+  let imagePath = '/textures/grass.png';
   // import LazyLoad from './LazyLoad.svelte';
 
   import { onMount } from 'svelte';
@@ -31,6 +32,7 @@
 
 </script>
 <h1>hello</h1>
+<img src={imagePath} alt="Local image" />
 
 <!-- div -->
 <div role="alert" class="alert alert-info">
